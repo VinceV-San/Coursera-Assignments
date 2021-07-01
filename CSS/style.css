@@ -1,0 +1,40 @@
+/******************Base****************************************/
+h1 {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+* {
+    font-family: Bradley Hand, cursive;
+    box-sizing: border-box;
+}
+
+p {
+   
+    border: 5px solid black;
+    margin-right: 15px;
+    background-color: grey;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/*******************  Large Devices Only ***********************/
+
+@media (min-width: 992px){
+.col-lg-1, .col-lg-2, .col-lg-3 {
+    float: left;
+}
+.col-lg-1 {
+    width: 33.33%
+}
+
+}
+
+
+/************************* Medium Device Only *******************/
+@media (min-width:768px) and (max-width: 991){
+
+
+}
+
